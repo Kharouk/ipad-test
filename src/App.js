@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ThemeContext } from "./Context";
+import { Button } from "../components";
 import "./styles.css";
 
 export default function App() {
