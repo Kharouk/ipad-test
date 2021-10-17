@@ -1,9 +1,10 @@
-import { useContext } from "react";
-import { ThemeContext } from "../src/Context";
+import { useContext } from "react"
+import { ThemeContext } from "../src/Context"
 
 export default function Button() {
-  const themeData = useContext(ThemeContext);
-  console.log(themeData);
+  const data = useContext(ThemeContext)
+  console.log(data)
+
   return (
     <button type="text">
       {/* {isDarkMode ? (
@@ -16,5 +17,5 @@ export default function Button() {
         </span>
       )} */}
     </button>
-  );
+  )
 }
