@@ -5,7 +5,9 @@ import "./styles.css";
 
 export default function App() {
   const [state, setState] = useState();
+
   const [isDarkMode, setDarkMode] = useState(false);
+
   const initialData = {
     isDarkMode,
     setDarkMode
